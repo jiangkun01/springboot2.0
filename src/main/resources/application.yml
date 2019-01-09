@@ -1,0 +1,9 @@
+spring:
+  profiles: #spring.profiles.active#
+server:
+  port: 8080
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    default-statement-timeout: 30
+    default-fetch-size: 100
