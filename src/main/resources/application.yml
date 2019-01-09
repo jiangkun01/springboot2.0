@@ -1,7 +1,6 @@
 spring:
-  profiles: #spring.profiles.active#
-server:
-  port: 8080
+  profiles:
+    active: dev
 mybatis:
   configuration:
     map-underscore-to-camel-case: true

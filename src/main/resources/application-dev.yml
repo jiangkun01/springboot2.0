@@ -1,4 +1,5 @@
-
+server:
+  port: 8080
 logging:
   config: classpath:log/logback-spring.xml
   path: D:/nmyslog/nmys

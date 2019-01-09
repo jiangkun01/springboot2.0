@@ -1,6 +1,13 @@
+server:
+  port: 8081
 logging:
   config: classpath:log/logback-spring.xml
   path: E:/nmyslog/nmys
 spring:
   application:
     name: release
+  datasource:
+    url: jdbc:mysql://localhost:3306/tale
+    username: root
+    password: developer
+    driver-class-name: com.mysql.jdbc.Driver

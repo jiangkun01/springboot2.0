@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class LoginController {
     Logger logger= LoggerFactory.getLogger(LoginController.class);
 
+//    @Value("${spring.application.name}")
     private String serverName;
 
     @GetMapping(path = "/getservername")
